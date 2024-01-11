@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!--FAVICON-->
+    <!--tittle icon-->
+    <link rel="shortcut icon" href="img/titleBar.png" type="image/x-icon">
+
+    <!--remix Icons-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--Style sheet-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome CND link for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    
+</head>
+
+<body>
+    <!--HEADER-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav_logo">
+                    <img src="img/titleBar.png" class="nav_img" alt="">
+                </a>
+
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="#home" class="active_link nav_link">Home</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#services" class="nav_link">Services</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#projects" class="nav_link">Projects</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#about" class="nav_link">About</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#contact" class="nav_link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav_close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav> 
+        </header>
+
+    <main class="main">
+            <!-- Notification section -->
+            <ul class="notifications">
+                
+            </ul>
+            <!--Hero section-->
+        <section class="home section" id="home">
+            <div class="home_container container container grid">
+                <img src="Img/Bot1.png" alt="" class="home_img">
+                <div class="home_data">
+                    <div class="home_header">
+                        <h1 class="home_title">Wayne</h1>
+                        <h2 class="home_subtitle">Tech</h2>
+                </div>
+            </div>
+            <!-- <div class="home_data">
+                <div class="home_header">
+                    <h1 class="home_title">Wayne</h1>
+                    <h2 class="home_subtitle">Tech</h2>
+                </div>
+            </div> -->
+
+            <div class="home_footer container">
+                <p class="home_title-description">-Introduction</p>
+                <h3>Full Stack developement company based in Nigeria.</h3>
+                <p class="home_description">We are a software Engineering company with good technique and experience in Full Stack Development, debugging, Unix Shell Scripts, javaScript, React, Nodejs as well as good time management skill with a grit and grow mindset.</p>
+                <a href="#projects" class="button button_flex">
+                    <span class="button_flex">
+                        <i class="ri-service-line button_icon">Projects</i>
+                    </span>
+                    <span class="home_arror">
+                       <i class="ri-arrow-right-circle-fill"></i> 
+                    </span>
+                </a>
+            </div>    
+        </section>
+
+        <!--CLIENTS-->
+        <section class="sponsor section">
+            <h2 class="section_title section_title-gradient">Clients</h2>
+            <div class="sponsor_container grid">
+                <img src="Img/Barbies-Touch-logo.png" alt="" class="sponsor_img-1">
+                <p class="client_comment">
+                    "The process is very something to feeel creative of the sety in the biush of a part of the island so that special"
+                </p>
+            </div>
+
+            <div class="sponsor_container grid">
+                <img src="Img/Unikco_logo.png" alt="" class="sponsor_img-2">
+                <p class="client_comment">
+                    "The process is very something to feeel creative of the sety in the biush of a part of the island so that special"
+                </p>
+            </div>
+        </section>
+
+        <!--Services section-->
+        <section class="service section grid" id="services">
+            <h2 class="section_title section_title-gradient">Services</h2>
+
+            <div class="services_container container grid">
+                <div class="services_content grid  data_flex">
+                    <div class="services_data button">
+                        <i class="ri-mac-line services_icon"></i>
+                        <h3 class="services_title">Full Stack Development</h3>
+                        <span class="services_subtitle">5 Projects</span>
+                    </div>
+                    <div class="services_data button">
+                        <i class="ri-box-3-line services_icon"></i>
+                        <h3 class="services_title">Product design</h3>
+                        <span class="services_subtitle">10 Projects</span>
+                    </div>
+                    <div class="services_data button">
+                        <i class="ri-creative-commons-nc-fill services_icon"></i>
+                        <h3 class="services_title">Operations Strategist</h3>
+                        <span class="services_subtitle">3 Projects</span>
+                    </div>
+                    <div class="services_data button">
+                        <i class="ri-game-fill services_icon"></i>
+                        <h3 class="services_title">Product management</h3>
+                        <span class="services_subtitle">3 Projects</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--AI section-->
+        <section class="ai section grid">
+            <h2 class="section_title section_title-gradient">Projects</h2>
+
+            <div class="ai_container container grid">
+                <div>
+                    <img src="Img/AI2.png" alt="" class="ai_img">
+                </div>
+
+                <div class="ai_data">
+                    <p class="ai_description">
+                        At WayneTech, we are your partners in the ever-evolving world of technology. Our mission is to provide tech-related services to customers who share our passion for continuous learning and growth.
+                    </p>
+
+                    <a href="#" class="button button_flex ai_button">
+                        <i class="ri-information-line button_icon"></i> More info
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <!--Star projects-->
+        <section class="projects section" id="projects">
+            <h2 class="section_title section_title-gradient projects_line">Star Projects</h2>
+            <div class="projects_container grid">
+                <article class="projects_card">
+                    <div class="projects_content">
+                        <img src="Img/Bot6.png" alt="" class="projects_img">
+                        <h3 class="projects_title">
+                            Landing-Page
+                        </h3>
+                        <span class="projects_price">
+                            499.99
+                        </span>
+
+                        <button class="button button_flex projects_button">
+                            <i class="ri-more-fill"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="projects_card">
+                    <div class="projects_content">
+                        <img src="Img/Bot5.png" alt="" class="projects_img">
+                        <h3 class="projects_title">
+                            Web-App 
+                        </h3>
+                        <span class="projects_price">
+                            $2,599.99
+                        </span>
+
+                        <button class="button button_flex projects_button">
+                            <i class="ri-more-fill"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="projects_card">
+                    <div class="projects_content">
+                        <img src="Img/Bot2.png" alt="" class="projects_img">
+                        <h3 class="projects_title">
+                            Mobile-Apps
+                        </h3>
+                        <span class="projects_price">
+                            $4,999.99
+                        </span>
+
+                        <button class="button button_flex projects_button">
+                            <i class="ri-more-fill"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="projects_card">
+                    <div class="projects_content">
+                        <img src="Img/Bot3.png" alt="" class="projects_img">
+                        <h3 class="projects_title">
+                            Maintanance
+                        </h3>
+                        <span class="projects_price">
+                            $1,999.99
+                        </span>
+
+                        <button class="button button_flex projects_button">
+                            <i class="ri-more-fill"></i>
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--About section-->
+        <section class="about section" id="about">
+            <h2 class="section_title section_title-gradient">About</h2>
+            <div class="about_container container grid">
+                <div class="about_animate">
+                    <h2 class="about_title">More about WayneTech </h2>
+                    <p class="about_description">
+                        Hello, we are a passionate and creative full-stack developement team with a love for turning ideas into innovative digital solutions. Driven by the curiosity to explore the ever-evolving world of technology and my desire to craft exceptional web experiences <br> <a href="#" class="button button_flex">
+                        <i class="ri-more-fill button_icon"></i> More
+                        </a>
+                    </p>
+                    <!--<p>With a strong foundation in front-end and back-end development, I bring together the best of both worlds to create seamless and user-friendly applications. My journey in the tech industry has been a thrilling adventure, and I'm excited to share some of the milestones with you through this portfolio.</p>
+                        <p>When I'm not coding, you can find me reading, exploring the unknown, or collaborating with fellow developers on open-source projects. I'm always seeking new challenges and opportunities to learn and grow in the world of software development.</p>
+                    --> 
+                </div>
+                <img src="Img/AIII.png" alt="" class="about_img">
+            </div>
+        </section>
+
+        
+        <!--Testimonails section-->
+        <section>
+            
+        </section>
+
+        <!--Contact Section-->
+        <section class="contact_section section" id="contact">
+            <h2 class="section_title section_title-gradient contact_line">Contact Us</h2>
+            <div class="contact_container container grid">
+                <div class="contact_data">
+                    <form id="contact-form" class="contact_form">
+                        <label for="name" class="contact_label">Your Name<span class="contact_label-important">*</span></label>
+                        <input type="text" id="name" name="name" class="contact_input" required>
+
+                        <label for="email" class="contact_label">Email<span class="contact_label-important">*</span></label>
+                        <input type="email" id="email" name="email" class="contact_input" required>
+
+                        <label for="message" class="contact_label">How can we help</label>
+                        <textarea name="message" id="message" class="contact_input"></textarea>
+                        <div class="contact_button-container">
+                            <button type="button" class="button button_flex contact_button" onclick="submitForm()">Send</button>
+                    </div>
+                    </form>
+
+
+                    <div class="contact_icon_button">
+                        <a href="#" class="button button_flex icon_button">
+                        <i class="ri-mail-send-fill button_icon"></i>
+                        </a>
+                        <a href="#" class="button button_flex icon_button">
+                        <i class="ri-github-fill button_icon"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+          </section>
+        </main>
+        
+
+        <!--Footer section-->
+        <footer class="footer_section">
+            <div class="footer_container container grid">
+                <a href="#" class="footer_logo">
+                    <img src="Img/titleBar.png" alt="">
+                </a>
+
+                <div class="footer_content">
+                    <h3 class="footer_title">Services</h3>
+
+                    <ul class="footer_links">
+                        <li>
+                            <a href="#" class="footer_link">Development</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Design</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Strategy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">PM</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer_content">
+                    <h3 class="footer_title">Support</h3>
+
+                    <ul class="footer_links">
+                        <li>
+                            <a href="#" class="footer_link">Services help</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Updates</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer_content">
+                    <form action="" class="footer_form">
+                        <input type="email" placeholder="Email" class="footer_input">
+                        <button class="button button_flex">
+                            <i class="ri-send-plane-line button_icon"></i>Suscribe
+                        </button>
+                    </form>
+
+                    <div class="footer_social">
+                        <a href="https://github.com" target="_blank" class="footer_social-link">
+                            <i class="ri-github-fill button_icon"></i>
+                        </a>
+                        <a href="https://x.com" target="_blank" class="footer_social-link">
+                            <i class="ri-twitter-x-line"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="footer_social-link">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p class="footer_copy">
+                <a href="#" target="_blank" class="footer_copy-link">
+                    &#169; WayneTech. All rights reserved
+                </a>
+            </p>
+        </footer>
+
+    <!--SCROLL UP-->
+    <a href="#" class="scroll_up" id="scroll-up">
+        <i class="ri-arrow-up-s-line scroll_up-icon"></i>
+    </a>
+
+    <!--SCROLL REVEAL-->
+    <script src="js/Scrollrevealmainjs.js"></script>
+    
+    <!--Main JS-->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/emailAction.js"></script>
+</body>
+</html>
