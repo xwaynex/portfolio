@@ -48,7 +48,9 @@ Contact
 Feel free to reach out if you have any questions or want to connect:
 
 Email:[Click](unikwebtech@gmail.com)
-LinkedIn:[Click](https://www.linkedin.com/))
+<br/>
+LinkedIn:[Click](https://www.linkedin.com)
+<br/>
 Twitter:[Click](https://x)
 
 <hr/>
