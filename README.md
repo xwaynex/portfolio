@@ -39,8 +39,10 @@ git clone https://github.com/yourusername/portfolio.git
 2. Open the project folder:
 cd portfolio
 
+```
 ## Usage
 Open the index.html file in your preferred web browser to view the portfolio website. Customize the content in the HTML files to match your information.
+start index.html
 
 Contact
 Feel free to reach out if you have any questions or want to connect:
